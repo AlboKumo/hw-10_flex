@@ -1,0 +1,49 @@
+/* стилизация главных классов */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 26px;
+    padding: 100px 0;
+}
+.wrapper {
+    display: flex;
+}
+
+/* Стилизация основных внутренних классов */
+.item {
+    width: 50%;
+}
+.block {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.link {
+    display: flex;
+}
+
+/* Стилизация дополнительных внутренних классов */
+.block h2 {
+    max-width: 80%;
+}
+.block p {
+    margin-top: 60px;
+    max-width: 90%;
+}
+.link a{
+    text-decoration: none;
+    color: #a263f5;
+    padding: 15px 60px;
+    border: #a263f5 solid 3px;
+    border-radius: 5px;
+}
+.item img{
+    height: 64px;
+    margin-top: 45px;
+}
+.item h4{
+    margin: 30px 0 15px 0;
+}
+.item p{
+    margin: 0;
+}
