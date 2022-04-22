@@ -1,6 +1,6 @@
 /* стилизация главных классов */
 .container {
-    width: 80%;
+    max-width: 1200px;
     margin: 0 auto;
     font-size: 26px;
     padding: 100px 0;
@@ -12,6 +12,7 @@
 /* Стилизация основных внутренних классов */
 .item {
     width: 50%;
+    margin-bottom: 45px;
 }
 .block {
     width: 50%;
@@ -23,12 +24,19 @@
 }
 
 /* Стилизация дополнительных внутренних классов */
-.block h2 {
-    max-width: 80%;
+/* Текст <p> */
+.item .item_text{
+    margin: 0;
+    font-size: 20px;
 }
-.block p {
+.block .block_text {
     margin-top: 60px;
     max-width: 90%;
+    font-size: 24px;
+}
+/* Остальное */
+.block h2 {
+    max-width: 80%;
 }
 .link a{
     text-decoration: none;
@@ -39,11 +47,7 @@
 }
 .item img{
     height: 64px;
-    margin-top: 45px;
 }
 .item h4{
     margin: 30px 0 15px 0;
-}
-.item p{
-    margin: 0;
 }
